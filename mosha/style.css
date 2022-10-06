@@ -1,0 +1,286 @@
+/* PCスマホ共通スタイル */
+
+body{
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  
+
+}
+
+/* PC用のスタイルを指定する */
+/* 画面幅が768px以上の時 */
+
+  @media screen and (min-width: 768px) {
+
+body{
+  max-width:1080px;
+  min-width:960px;
+
+}
+
+
+
+
+
+
+
+
+/* ナビゲーションの設定 */
+
+#navi{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin:20px auto 20px auto;
+  
+}
+
+#title1{
+  font-size:34px;
+  border:1px #000 solid;
+  padding:11px 28px 12px 29px;
+  margin:0; 
+}
+
+
+#menu-top{
+  display:flex;
+  padding:11px 0 12px 150px;
+  
+}
+
+a{
+  text-decoration: none;
+  color:#000;
+}
+
+.menu1,.menu2{
+  font-size:34px;
+  padding:0 35px;
+}
+
+.analogcamera{
+  width:100%;
+  
+}
+
+#art{
+  position:relative;
+  margin: 0 auto;
+}
+
+
+
+/* ABOUTの設定 */
+
+.smalltitle1{
+  text-align:center;
+  font-size:34px;
+  margin-top:50px;
+}
+
+#men {
+  width:142px;
+  height:142px;
+  border-radius:50%;
+  background-color:none;
+}
+
+#profile{
+  
+}
+
+#profile2{
+  padding: 10px;
+  display:flex;
+  justify-content:center;
+  /* flex-wrap: wrap; */
+  align-items:center;
+  margin: -10px auto 20px auto;
+  max-width: 960px;
+  
+}
+
+#profile3{
+  
+}
+
+.name{
+  
+  font-size:24px;
+  font-weight:bold;
+  margin: 20px 0 0 33px;
+  
+}
+
+ul{
+  position:relative;
+  
+  font-size:18px;
+}
+
+li{
+  padding: 0 0 0px 0;
+}
+
+
+/* Woeksの設定 */
+
+#works{
+  display:flex;
+  /* flex-wrap:wrap; */
+  justify-content:center;
+  flex-wrap:wrap;
+  
+}
+
+.fig{
+  width:179px;
+}
+
+
+
+#photograph{
+  
+  width:179px;
+  height:134px;
+}
+
+/* フッターの設定 */
+
+footer{
+  text-align:center;
+  margin-top:30px;
+  font-size:18px;
+}
+
+
+  }
+
+
+
+/* スマートフォン用のスタイルを指定する */
+/* 画面幅が768px以下の時 */
+@media screen and (max-width: 768px) {
+
+body{
+  min-width: 767px;
+  margin: 0;
+  padding:20px;
+  
+}
+
+/* navの設定 */
+#navi{
+  width:100%px;
+  height:120px;
+  display:flex;
+  justify-content:space-between;
+  font-size:34px;
+  display:flex;
+  /* background-color:red; */
+}
+
+
+a{
+  text-decoration: none;
+  color:#000;
+}
+
+#title1{
+  width:163px;
+  height:69px;
+  font-size:34px;
+  border:1px #000 solid;
+  padding:11px 29px 0px 28px;
+  margin:20px 0 0 20px;
+  font-family: Noto Sans;
+  font-weight:700;
+}
+
+#menu-top{
+  font-size: 34px;
+  display:flex;
+  margin:35px 20px 0 20px;
+  font-family: Noto Sans;
+  font-weight:700;
+
+   
+}
+
+.menu1{
+  width:104px;
+}
+
+.menu2{
+  padding:0 20px;
+}
+.analogcamera{
+  width:100%;
+}
+
+.smalltitle1{
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 0;
+}
+
+#men{
+  border-radius:50%;
+  width: 141px;
+  height: 141px; 
+  margin-top:20px; 
+}
+
+#art{
+  margin: 0 center ;
+}
+
+.name{
+  font-size: 24px;
+  font-weight:bold;
+  margin-left:20px;
+}
+
+ul{
+  font-size:18px;
+}
+
+#profile2{
+  display:flex;
+  /* text-align:center; */
+  justify-content:center;
+  margin-top:
+}
+
+p,ul{
+  text-align:left;
+}
+
+#photograph{
+  width:647px;
+}
+
+#works{
+  text-align:center;
+  
+}
+
+.fig{
+  margin-bottom:40px;
+  font-size:18px;
+  font-family: Noto Sans;
+}
+
+footer{
+  text-align:center;
+  font-size:18px;
+  font-weight:400;
+}
+
+
+
+
+
+
+
+}
